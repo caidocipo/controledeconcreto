@@ -104,7 +104,6 @@ Private Sub TextBox5_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
     End If
 End Sub
 
-
 Private Sub TextBox6_KeyPress(ByVal KeyAscii As MSForms.ReturnInteger)
     If KeyAscii >= 48 And KeyAscii <= 57 Then ' permite apenas números de 0 a 9
         If Len(Me.TextBox6.Value) = 2 Then ' adiciona dois pontos após a hora ser digitada
